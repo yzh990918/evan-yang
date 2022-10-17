@@ -1,6 +1,6 @@
-# VBS-PLUS
+# Evan-Yang(WIP)
 
-Project site for [vbs.plus](https://vps.plus)
+My personal website for [Evan-Yang](https://evan-yang.netlify.app/)
 
 ## Features
 

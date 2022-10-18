@@ -54,7 +54,7 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
-      theme: 'dracula',
+      theme: 'github-dark-dimmed',
     },
   },
 

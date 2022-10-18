@@ -1,9 +1,6 @@
 <script lang="ts" setup>
 const siteMeta = useSiteMeta()
 const initials = siteMeta.name
-  .split(' ')
-  .map(word => word[0].toLowerCase())
-  .join('')
 </script>
 
 <template>

@@ -97,7 +97,7 @@ This allows you to completely cut out the build step when you're iterating and t
 
 It's as simple as `unbuild --stub`.
 
-```ts [build.config.ts]
+```ts 
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({

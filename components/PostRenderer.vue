@@ -31,18 +31,18 @@ useHead({
       v-bind="{ ...schema }"
     />
     <Breadcrumbs class="mb-2" />
-    <h1 class="!text-3xl font-header font-bold !leading-11 !md:(text-4xl leading-14) mb-7">
+    <h1 class="font-header font-bold !leading-11 !md:(text-4xl leading-14) mb-7">
       {{ post.title }}
     </h1>
-    <TagList :tags="post.tags" class="mb-5" />
-    <div class="sm:(flex space-x-7 mb-10 text-lg space-y-0) opacity-80 space-y-3 items-center">
-      <div>
+    <TagList v-if="post.tags" :tags="post.tags" class="mb-5" />
+    <div class="sm:(flex space-x-4 mb-10 text-lg space-y-0) opacity-80 space-y-3 items-center">
+      <div class="text-base">
         Published {{ month }} {{ day }} {{ year }}
       </div>
-      <div class="opacity-50 text-xs hidden sm:block">
-        ●
+      <div class="text-xs hidden sm:block">
+      ☕️☕️
       </div>
-      <div>
+      <div class="text-base">
         {{ post.readingMins }} minute read
       </div>
     </div>
@@ -55,5 +55,6 @@ useHead({
         </template>
       </ContentRenderer>
     </Prose>
+    <NuxtLink class="font-mono no-underline opacity-70" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">cd ..</NuxtLink>
   </div>
 </template>

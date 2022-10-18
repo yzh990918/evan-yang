@@ -15,7 +15,7 @@ export default <ContentTransformer> {
             type: 'element',
             tag: 'span',
             props: {
-              class: 'code-block__filename',
+              // class: 'code-block__filename',
             },
             children: [
               { type: 'text', value: node?.props?.filename },

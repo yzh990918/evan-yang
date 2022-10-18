@@ -1,36 +1,25 @@
 {
   "body": [
     {
-      "name": "Nuxt Ecosystem",
+      "name": "Utilities / CLI",
       "projects": [
         {
-          "name": "nuxt-webpack-optimisations",
-          "description": "Make your Nuxt.js webpack builds faster",
-          "link": "https://github.com/harlan-zw/nuxt-webpack-optimisations",
-          "icon": "i-logos-webpack"
+          "name": "Magic CLI",
+          "description": "Monorepo enterprise level CLI tools by Rush and Pnpm",
+          "link": "https://github.com/vbs-plus/magic-cli",
+          "icon": "i-carbon-package"
         },
         {
-          "name": "nuxt-delay-hydration",
-          "description": "Improve your Nuxt.js v2 Google Lighthouse score by delaying hydration",
-          "link": "https://github.com/harlan-zw/nuxt-delay-hydration",
-          "icon": "i-bi-stopwatch"
+          "name": "Magic CLI Templates",
+          "description": "Make templates simply",
+          "link": "https://github.com/vbs-plus/magic-cli-templates",
+          "icon": "i-carbon-compare"
         },
         {
-          "name": "nuxt-windicss",
-          "description": "Windi CSS for Nuxt.js",
-          "link": "https://github.com/windicss/nuxt-windicss",
-          "icon": "i-simple-icons-windicss"
-        }
-      ]
-    },
-    {
-      "name": "Vue Ecosystem",
-      "projects": [
-        {
-          "name": "@vueuse/schema-org",
-          "description": "Schema.org for Vue. Supports typed and automated Google Rich Results",
-          "link": "https://github.com/vueuse/schema-org",
-          "icon": "i-noto-right-pointing-magnifying-glass"
+          "name": "Zi",
+          "description": "Use the right package manager",
+          "link": "https://github.com/vbs-plus/zi",
+          "icon": "i-carbon-3d-software"
         }
       ]
     },
@@ -38,39 +27,98 @@
       "name": "Tools",
       "projects": [
         {
-          "name": "Unlighthouse",
-          "description": "Scan your entire site using Google Lighthouse.",
-          "link": "https://github.com/harlan-zw/unlighthouse",
-          "icon": "i-logos-lighthouse"
+          "name": "eslint-config",
+          "description": "Personal Eslint config presets",
+          "link": "https://github.com/yzh990918/eslint-config",
+          "icon": "i-simple-icons-eslint"
         }
       ]
     },
     {
-      "name": "Utilities",
+      "name": "Starter Templates",
       "projects": [
         {
-          "name": "zhead",
-          "description": "Fully-typed utilities for defining, validating and building your document <head>.",
-          "link": "https://github.com/harlan-zw/zhead",
-          "icon": "i-emojione-v1-gem-stone"
+          "name": "pmrepo-rush-starter",
+          "description": "pnpm rush monrepo template",
+          "link": "https://github.com/vbs-plus/pmrepo-rush",
+          "icon": "i-carbon-ai-results"
         },
         {
-          "name": "unrouted",
-          "description": "Unrouted is a minimal, composable router built for speed, portability and DX",
-          "link": "https://github.com/harlan-zw/unrouted",
-          "icon": "i-ic-twotone-route"
+          "name": "vitese-electron",
+          "description": "Vitese electron version",
+          "link": "https://github.com/yzh990918/vitese-electron",
+          "icon": "i-simple-icons-electron"
         },
         {
-          "name": "changelogd",
-          "description": "Aggressively find a packages changelog (or releases) between versions.",
-          "link": "https://github.com/harlan-zw/changelogd",
-          "icon": "i-noto-wood"
+          "name": "vitese",
+          "description": "Template for vitest-vue3",
+          "link": "https://github.com/yzh990918/vitest-vue-starter",
+          "icon": "i-carbon-campsite"
         },
         {
-          "name": "chonky-pkg",
-          "description": "Flexible package template for chonky monorepos, based on starter-ts.",
-          "link": "https://github.com/harlan-zw/chonky-pkg",
-          "icon": "i-noto-seal"
+          "name": "vitese-react",
+          "description": "Template for vitest-react",
+          "link": "https://github.com/yzh990918/vitest-react-starter",
+          "icon": "i-simple-icons-react"
+        },
+        {
+          "name": "vitese-h5",
+          "description": "Template for vitest-vue3 h5",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-vitest-h5-starter",
+          "icon": "i-carbon-application-mobile"
+        },
+        {
+          "name": "taro-react",
+          "description": "Template for taro3",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/taro-starter",
+          "icon": "i-simple-icons-trainerroad"
+        },
+        {
+          "name": "ts-cli-template",
+          "description": "Typescript cli starter",
+          "link": "https://github.com/yzh990918/ts-cli-template",
+          "icon": "i-simple-icons-treyarch"
+        },
+        {
+          "name": "ts-starter",
+          "description": "Typescript Vitest starter",
+          "link": "https://github.com/yzh990918/ts-vitest-starter",
+          "icon": "i-simple-icons-typescript"
+        },
+        {
+          "name": "ant-design-pro-starter",
+          "description": "Ant Design Pro Starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-pro-starter",
+          "icon": "i-simple-icons-antdesign"
+        },
+        {
+          "name": "ant-design-simple-starter",
+          "description": "Ant Design Pro Simple Starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-simple-starter",
+          "icon": "i-simple-icons-antdesign"
+        },
+        {
+          "name": "vue3-element-admin-starter",
+          "description": "Vue3 element-plus admin-starter",
+          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-element-admin-starter",
+          "icon": "i-ep-element-plus"
+        }
+      ]
+    },
+    {
+      "name": "Miniprogram Ecosystem",
+      "projects": [
+        {
+          "name": "vbs-mini",
+          "description": "VBS Plus for Alipay Mini Program",
+          "link": "https://github.com/vbs-plus/vbs-mini",
+          "icon": "i-simple-icons-antdesign"
+        },
+        {
+          "name": "mini-request",
+          "description": "The request for wechat and alipay mini programs",
+          "link": "https://github.com/vbs-plus/mini-request",
+          "icon": "i-simple-icons-minutemailer"
         }
       ]
     }

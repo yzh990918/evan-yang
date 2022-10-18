@@ -1,5 +1,5 @@
-export const SiteName = 'E v a n - Y a n g'
-export const SiteUrl = 'https://vps.plus'
+export const SiteName = 'evan-yang'
+export const SiteUrl = 'https://evan-yang.netlify.app/'
 export const SiteImage = '/cover.png'
 export const SiteLogo = '/cover'
 export const SiteLanguage = 'en-ZH'

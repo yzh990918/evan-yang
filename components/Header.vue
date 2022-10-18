@@ -4,7 +4,7 @@ const { data: nav } = await useHeaderNav()
 
 <template>
   <header>
-    <div class="flex justify-between items-center max-w-8xl mx-auto mx-auto sm:px-8 px-4">
+    <div class="flex justify-between items-center max-w-8xl max-h-22 mx-auto mx-auto sm:px-8 px-4">
       <Logo />
       <div class="flex items-center">
         <!-- Navigation -->
@@ -39,8 +39,7 @@ const { data: nav } = await useHeaderNav()
 <style>
 header {
   border-style: none;
-  backdrop-filter: blur(2px);
-  position: sticky;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 50;

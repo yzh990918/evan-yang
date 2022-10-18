@@ -18,9 +18,9 @@ const siteMeta = useSiteMeta()
       />
       <SchemaOrgWebPage />
     </Head>
-    <Body class="text-gray-800 dark:text-gray-100 antialiased">
+    <Body class="font-sans text-gray-700 dark:text-gray-200 antialiased">
       <Header />
-      <main class=" lg:(px-0) md:(max-w-700px pb-20 px-8) sm:(pb-16 px-6) mx-auto max-w-full px-4 py-7 pb-10 l">
+      <main class=" lg:(px-0) md:(max-w-700px pb-20 px-8) sm:(pb-16 px-6) mx-auto max-w-full px-4 py-7 pb-10 pt-24 l">
         <NuxtPage class="page-enter-active" />
       </main>
       <footer class="px-5 sm:px-7 md:px-10 text-center text-gray-400 text-sm my-5">
@@ -28,7 +28,7 @@ const siteMeta = useSiteMeta()
           <SocialIcons />
         </div>
         <p class="mb-3">
-          © 2022-PRESENT {{ siteMeta.name }}. All rights reserved.
+          © 2022-PRESENT Evan-Yang. All rights reserved.
         </p>
       </footer>
     </Body>

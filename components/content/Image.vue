@@ -66,6 +66,14 @@ figure {
   }
 }
 
+
+@media(min-width: 1024px) {
+  figure {
+    max-width: 700px;
+    --tw-translate-x: 0!important;
+  }
+}
+
 figure :deep(img:not([src$=".svg"])) {
   @apply w-auto rounded-lg shadow-lg;
 }

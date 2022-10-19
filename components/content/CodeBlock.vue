@@ -11,8 +11,8 @@
 }
 
 :deep(pre) {
-  font-family: 'DM Mono', 'Input Mono', 'Fira Code', monospace;
-  font-size: 0.875rem!important;
+  font-family: "Roboto Mono","SFMono-Regular",Menlo,Consolas,"Liberation Mono",Courier,monospace;
+  font-size: 0.92rem !important;
   line-height: 1.7;
   counter-reset: number;
   margin: 0 !important;
@@ -28,9 +28,8 @@
 
 :deep(.line) {
   counter-increment: number;
-  @apply text-xs
 
-  &:before {
+  @apply text-xs &:before {
     display: inline-block;
     text-align: center;
     padding-right: 15px;

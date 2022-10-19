@@ -16,10 +16,16 @@
           "icon": "i-carbon-compare"
         },
         {
-          "name": "Zi",
+          "name": "ZI",
           "description": "Use the right package manager",
           "link": "https://github.com/vbs-plus/zi",
           "icon": "i-carbon-3d-software"
+        },
+        {
+          "name": "Koa-template",
+          "description": "Koa Restful best template.",
+          "link": "https://github.com/yzh990918/koa-template",
+          "icon": "i-carbon-tools"
         }
       ]
     },
@@ -31,6 +37,17 @@
           "description": "Personal Eslint config presets",
           "link": "https://github.com/yzh990918/eslint-config",
           "icon": "i-simple-icons-eslint"
+        }
+      ]
+    },
+    {
+      "name":"UI Design",
+      "projects": [
+        {
+          "name": "Onu UI",
+          "description":"Onu-UI for web glassmorphism components generate by UnoCSS",
+          "link":"https://github.com/onu-ui/onu-ui",
+          "icon":"i-simple-icons-unocss"
         }
       ]
     },
@@ -64,20 +81,20 @@
         {
           "name": "vitese-h5",
           "description": "Template for vitest-vue3 h5",
-          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-vitest-h5-starter",
+          "link": "https://github.com/yzh990918/vitese-h5-starter",
           "icon": "i-carbon-application-mobile"
         },
         {
-          "name": "taro-react",
-          "description": "Template for taro3",
-          "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/taro-starter",
-          "icon": "i-simple-icons-trainerroad"
+          "name": "vite-vue2-starter",
+          "description": "Template for vite vue2",
+          "link": "https://github.com/yzh990918/vite-vue2-start",
+          "icon": "i-carbon-campsite"
         },
         {
           "name": "ts-cli-template",
           "description": "Typescript cli starter",
           "link": "https://github.com/yzh990918/ts-cli-template",
-          "icon": "i-simple-icons-treyarch"
+          "icon": "i-simple-icons-vite"
         },
         {
           "name": "ts-starter",
@@ -102,23 +119,53 @@
           "description": "Vue3 element-plus admin-starter",
           "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-element-admin-starter",
           "icon": "i-ep-element-plus"
+        },
+        {
+          "name": "vue3-element-admin-simple",
+          "description": "Vue3 element-plus simple admin-starter",
+          "link": "https://github.com/yzh990918/vue-admin-template",
+          "icon": "i-ep-element-plus"
         }
       ]
     },
     {
-      "name": "Miniprogram Ecosystem",
+      "name": "Toy project",
       "projects": [
         {
-          "name": "vbs-mini",
-          "description": "VBS Plus for Alipay Mini Program",
-          "link": "https://github.com/vbs-plus/vbs-mini",
-          "icon": "i-simple-icons-antdesign"
+          "name": "Student-admin-template",
+          "description": "A Magic Student_admin built by Vue2, element, springboot.",
+          "link": "https://github.com/yzh990918/Magic_Shop",
+          "icon": "i-simple-icons-aiqfome"
         },
         {
-          "name": "mini-request",
-          "description": "The request for wechat and alipay mini programs",
-          "link": "https://github.com/vbs-plus/mini-request",
-          "icon": "i-simple-icons-minutemailer"
+          "name": "Magic Shop",
+          "description": "A magic sundry goods store built by Wechat Miniprogram.",
+          "link": "https://github.com/yzh990918/Magic_Shop",
+          "icon": "i-carbon-shopping-cart"
+        },
+        {
+          "name": "Forum-project ",
+          "description": "A forum project built by Vue2, Koa.",
+          "link": "https://github.com/yzh990918/forum-project",
+          "icon": "i-carbon-color-palette"
+        },
+        {
+          "name": "Epub Reader",
+          "description": "A Epub book Reader built by epubjs, Vue2.",
+          "link": "https://github.com/yzh990918/reader_overwrite",
+          "icon": "i-carbon-book"
+        },
+        {
+          "name": "Magic music",
+          "description": "A magic music player built by Vue2.",
+          "link": "https://github.com/yzh990918/mymusic",
+          "icon": "i-carbon-music"
+        },
+        {
+          "name": "Koa lonely island",
+          "description": "The best Node.js Koa restfulAPI practice",
+          "link": "https://github.com/yzh990918/Node_review",
+          "icon": "i-simple-icons-kongregate"
         }
       ]
     }

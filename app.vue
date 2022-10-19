@@ -18,7 +18,7 @@ const siteMeta = useSiteMeta()
       />
       <SchemaOrgWebPage />
     </Head>
-    <Body class="font-sans text-gray-700 dark:text-gray-200 antialiased">
+    <Body class="text-gray-700 dark:text-gray-200 antialiased">
       <Header />
       <main class=" lg:(px-0) md:(max-w-700px pb-20 px-8) sm:(pb-16 px-6) mx-auto max-w-full px-4 py-7 pb-10 pt-24 l">
         <NuxtPage class="page-enter-active" />

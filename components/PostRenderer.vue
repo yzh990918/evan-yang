@@ -31,7 +31,7 @@ useHead({
       v-bind="{ ...schema }"
     />
     <Breadcrumbs class="mb-2" />
-    <h1 class="font-header font-bold !leading-11 !md:(text-4xl leading-14) mb-7">
+    <h1 class="font-header font-weight-800 text-4xl !leading-11 !md:(text-4xl leading-14) mb-7">
       {{ post.title }}
     </h1>
     <TagList v-if="post.tags" :tags="post.tags" class="mb-5" />

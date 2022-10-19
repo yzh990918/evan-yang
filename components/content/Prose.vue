@@ -11,7 +11,7 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
-  font-family: '"Inter",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";'!important;
+  word-break: break-all;
 }
 
 @media (min-width: 768px) {
@@ -24,7 +24,7 @@
 .prose blockquote {
   font-weight: normal;
   font-style: normal;
-  line-height: 1.5em;
+  line-height: 1.7em;
   padding: 0.6em 1.2em;
   opacity: 0.8;
   color: inherit;
@@ -35,6 +35,9 @@
   quotes: "\201C" "\201D" "\2018" "\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
+}
+.dark .prose blockquote {
+  color: #d1d5db;
 }
 
 .prose blockquote> :first-child {
@@ -126,7 +129,7 @@
 .prose code {
   color: var(--fg-deep);
   font-weight: 600;
-  font-size: 0.875em;
+  font-size: 1rem;
 }
 
 .prose code::before {

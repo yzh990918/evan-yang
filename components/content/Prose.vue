@@ -11,7 +11,6 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
-  word-break: break-all;
 }
 
 @media (min-width: 768px) {

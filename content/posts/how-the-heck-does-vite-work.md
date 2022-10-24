@@ -4,7 +4,6 @@ description: "A deep-dive into the comparisons between the earliest Vite version
 publishedAt: '2020-12-01'
 excerpt: 'I used Vite to build a new blazing fast blog ⚡, find out what I learnt and why Vite is the next big thing.'
 status: published
-image: "https://harlanzw.com/social/how-vite-works.png"
 tags: 
   - webpack
   - vite
@@ -106,7 +105,7 @@ Let's see how this component gets to my browser.
 
 HelloWorld.vue component:
 
-```vue [HelloWorld.vue]
+```vue
 <script>
 export default {
   props: {
@@ -323,7 +322,7 @@ will need separate requests to fetch. It hasn't bundled these imports into the S
 
 If you're curious, this is what the style component response looks like, some nifty for sure.
 
-```js  [CardPost.vue - CSS]
+```js
 import { updateStyle } from '/vite/client'
 const css = '.card-post[data-v-287b4794] {\n  position: relative;\n}\n.card-post .prose[data-v-287b4794] {\n  max-width: 100% !important;\n}\n.card-post__link[data-v-287b4794] {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  content: " ";\n  z-index: 1;\n}\n.card-post__content[data-v-287b4794] {\n  background-color: white;\n  z-index: 1;\n}\n.card-post__effect[data-v-287b4794] {\n  z-index: -1;\n  content: " ";\n  height: 30px;\n  width: 100%;\n  position: absolute;\n  background-color: #059669;\n  transition: 0.2s;\n  opacity: 0;\n  top: 30px;\n}\n.card-post:hover .card-post__effect[data-v-287b4794] {\n  top: -5px;\n  opacity: 1;\n  transform: rotate(0.25deg);\n}'
 updateStyle('287b4794-0', css)
@@ -365,7 +364,7 @@ If you want to find out more about Vite, I'd watch Evan's talk on [Vite & VitePr
 
 I'd recommend just spinning up bare-bones Vite to get a feel for it. It's really easy, takes less than a minute.
 
-```shell [bash]
+```shell
 npm init vite-app
 ```
 
@@ -385,10 +384,5 @@ the Vite configuration, which will be limiting for non-documentation sites.
 Otherwise, I'd choose Vitesse as it's going to give you more flexible on customising your app. Vitesse offers a pre-configured `vite.config.js`, so you can easily
 strip anything out you don't need to add whatever you'd like to it.
 
-If you like my blog (VitePress + TailwindCSS), then you're more than welcome to [clone it](https://github.com/harlan-zw/harlanzw.com).
 
 
-## Thanks for reading
-
-If you like the technical side of Vue and Laravel, I'll be posting regular articles on this site. The best
-way to keep up to date is by following me [@harlan_zw](https://twitter.com/harlan_zw).

@@ -3,7 +3,6 @@ title: "Building a Vue Auto Component Importer - A Better Dev Experience"
 description: "Components magically being imported into your app is the latest developer experience trend in Vue. Why does it exist and how does it work?"
 publishedAt: '2020-12-22'
 excerpt: "Having component folders auto-magically imported into your app is the latest craze. How does it work and is it good?"
-image: "https://harlanzw.com/social/vue-automatic-component-imports.png"
 tags: 
  - webpack
  - vue
@@ -211,7 +210,7 @@ When we load our `App.vue`, the `HelloWorld` doesn't work, as expected. Our goal
 
 We need to make sure the loader we'll be making is going to run after the vue-loader.
 
-```js [./vue.config.js]
+```js
 module.exports = {
   chainWebpack: (config) => {
     config.module
@@ -230,7 +229,7 @@ If you'd like to see the raw webpack config example, open the below.
 <details>
   <summary>webpack.config.js example</summary>
 
-```js [webpack.config.js]
+```js
 module.exports = {
   // ...
   module: {
@@ -246,7 +245,7 @@ module.exports = {
 
 Knowing that webpack loaders are loaded from bottom to top, we would modify the configuration as so:
 
-```js [webpack.config.js]
+```js
 module.exports = {
   // ...
   module: {
@@ -274,7 +273,7 @@ Normally a webpack would handle this configuration changing for you.
 
 Now we create the loader called `imports-loader.js` in your apps root directory. We're going to make sure we only run it for the virtual SFC module.
 
-```js [imports-loader.js]
+```js
 module.exports = function loader(source) {
   // only run for the virtual SFC
   if (this.resourceQuery)
@@ -295,7 +294,7 @@ As a proof of concept, let's try to import the `HelloWorld.vue` component so our
 
 At this stage, we can just append the import code on to the `source`.
 
-```js [imports-loader.js]
+```js
 module.exports = function loader(source) {
   // only run for the virtual SFC
   if (this.resourceQuery)
@@ -323,7 +322,7 @@ The first step in making it smarter is we need to create a map of the components
 
 We recursively iterate over the components folder and do some mapping.
 
-```js [a. Scan components]
+```js
 const base = './src/components/'
 const fileComponents = (await globby('*.vue', { cwd: base })).map((c) => {
   const name = path.parse(c).name
@@ -340,7 +339,7 @@ const fileComponents = (await globby('*.vue', { cwd: base })).map((c) => {
 
 To understand what components are being used, we need to have our new loader to compile the SFC `<template>` blocks.
 
-```js [b. Find the template tags]
+```js
 const compiler = require('@vue/compiler-sfc')
 const parsed = compiler.parse(fs.readFileSync(`${this.context}/${path.basename(this.resourcePath)}`, 'utf8')).descriptor
 const template = compiler.compileTemplate({
@@ -372,7 +371,7 @@ If you wanted to match non-PascalCase names, you would modify this matcher funct
 The final piece of the puzzle is appending the list of matched components and inserting the import line and assigning
 the components.
 
-```js [d. Insert the new dynamic imports]
+```js
 if (!matches.length)
   return source
 
@@ -397,7 +396,7 @@ new components.
 Below is the full `imports-loader.js` for reference. This loader should _just work_. Create
 a new component and then use it straight away, make sure you use PascalCase.
 
-```js [imports-loader.js]
+```js
 const fs = require('fs')
 const path = require('path')
 const globby = require('globby')
@@ -475,7 +474,7 @@ replacement speed, the web-dev-server boot-time and the production build time.
 Saying that certain optimisations can and are made. Loader output can be cached with one line, so unless we change a file
 we don't need to recompile it.
 
-```js [imports-loaders.js]
+```js
 // ...
 module.exports = async function loader(source) {
   this.cache()
@@ -582,10 +581,4 @@ While these compile-time upgrades are not needed, they do make life easier. The 
 with injecting code at compile time opens up many opportunities for reducing the 'chores' that seem to follow us around
 project to project.
 
-## Thanks for reading
-
-webpack and Vue internals are a challenging topic and if you made it all the way through, pat yourself on the back.
-
-If you like the technical side of Vue and Laravel, I'll be posting regular articles on this site. The best
-way to keep up to date is by following me [@harlan_zw](https://twitter.com/harlan_zw) or signing up for the newsletter below.
 

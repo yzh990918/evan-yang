@@ -22,6 +22,12 @@
           "icon": "i-carbon-3d-software"
         },
         {
+          "name": "JSON TSC",
+          "description": "A plugin that makes it easier to convert JSON to Typescript interface.",
+          "link": "https://github.com/vbs-plus/json-tsc",
+          "icon": "i-carbon-json-reference"
+        },
+        {
           "name": "Koa-template",
           "description": "Koa Restful best template.",
           "link": "https://github.com/yzh990918/koa-template",
@@ -41,13 +47,13 @@
       ]
     },
     {
-      "name":"UI Design",
+      "name": "UI Design",
       "projects": [
         {
           "name": "Onu UI",
-          "description":"Onu-UI for web glassmorphism components generate by UnoCSS",
-          "link":"https://github.com/onu-ui/onu-ui",
-          "icon":"i-simple-icons-unocss"
+          "description": "Onu-UI for web glassmorphism components generate by UnoCSS",
+          "link": "https://github.com/onu-ui/onu-ui",
+          "icon": "i-simple-icons-unocss"
         }
       ]
     },

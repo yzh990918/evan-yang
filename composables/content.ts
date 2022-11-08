@@ -1,3 +1,4 @@
+/* eslint-disable require-await */
 import { packMeta, unpackMeta } from '@zhead/vue'
 import { useAsyncData } from '#app'
 import { SiteName, groupBy } from '~/logic'

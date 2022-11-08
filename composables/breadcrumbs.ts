@@ -29,6 +29,7 @@ const getBreadcrumbs = (input: string) => {
 export async function useBreadcrumbs() {
   const route = useRoute()
   const links = getBreadcrumbs(route.path)
+  // eslint-disable-next-line no-return-await
   return await Promise.all(links
     .reverse()
     .map(async(path, key) => {

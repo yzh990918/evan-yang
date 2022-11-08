@@ -33,9 +33,8 @@ const loadingType = computed(() => {
   return (props.lazy === true || props.lazy === 'true') ? 'lazy' : 'eager'
 })
 
+// eslint-disable-next-line vue/no-setup-props-destructure
 const src = props.src
-  .replace('.png', '')
-  .replace('.jpeg', '')
 const provider = props.src.startsWith('https://') ? '' : 'cloudinary'
 </script>
 
@@ -65,7 +64,6 @@ figure {
     @apply !translate-x-0;
   }
 }
-
 
 @media(min-width: 1024px) {
   figure {

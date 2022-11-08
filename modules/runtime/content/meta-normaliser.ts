@@ -4,6 +4,7 @@ import type { Page, Post } from '~/types'
 export default <ContentTransformer> {
   name: 'meta-normaliser',
   extentions: ['.md'],
+  // eslint-disable-next-line require-await
   async transform(content: Post | Page) {
     // turn the content _path to a real path
     if (content._path.startsWith('/pages/')) {

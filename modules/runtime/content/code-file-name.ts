@@ -4,6 +4,7 @@ import type { ContentTransformer, MarkdownNode } from '@nuxt/content/dist/runtim
 export default <ContentTransformer> {
   name: 'code-file-name',
   extentions: ['.md'],
+  // eslint-disable-next-line require-await
   async transform(content) {
     visit(
       content.body,

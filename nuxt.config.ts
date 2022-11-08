@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
         { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/47019/634f64ddf629d80d3856f949.css', type: 'text/css' },
         { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/46986/634f66d9f629d80d3856f94c.css', type: 'text/css' },
-        { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/46749/634f61e3f629d80d3856f944.css', type: 'text/css' }
+        { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/46749/634f61e3f629d80d3856f944.css', type: 'text/css' },
       ],
       meta: [
         ...unpackMeta({

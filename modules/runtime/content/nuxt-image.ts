@@ -5,6 +5,7 @@ import type { ContentTransformer, MarkdownNode } from '@nuxt/content/dist/runtim
 export default <ContentTransformer> {
   name: 'nuxt-image',
   extentions: ['.md'],
+  // eslint-disable-next-line require-await
   async transform(content) {
     // Unwrap images inside Paragraphs
     visit(

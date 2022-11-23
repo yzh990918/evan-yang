@@ -9,6 +9,9 @@ tags:
   - vite
 ---
 
+::Toc
+::
+
 ::tip
 Note: This article was written for the alpha of Vite. I'd recommend reading Patak's great article on [The Vite Ecosystem](https://patak.dev/vite/ecosystem.html).
 ::

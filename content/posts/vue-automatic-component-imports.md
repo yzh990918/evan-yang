@@ -8,6 +8,9 @@ tags:
  - vue
 ---
 
+::Toc
+::
+
 When first learning Vue, you are taught you need to import and add components to `components` in the script block.
 
 ```vue

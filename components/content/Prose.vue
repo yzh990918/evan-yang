@@ -177,7 +177,6 @@
   content: none;
 }
 
-
 .prose h2 a {
   @apply bg-gradient-to-b from-emerald-500 to-teal-600 bg-clip-text before: opacity-0 after:opacity-0;
   -webkit-text-fill-color: transparent !important;
@@ -206,7 +205,6 @@
 .prose h1 svg {
   @apply ml-1 md: (w-8 h-8) w-6 h-6 mb-1 text-gray-500 inline-block;
 }
-
 
 .prose h2 a,
 .prose h3 a {

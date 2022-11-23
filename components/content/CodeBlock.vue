@@ -6,13 +6,13 @@
 
 <style scoped lang="scss">
 .code-block:before {
-  @apply absolute top-2 right-3 z-2 text-sm text-gray-500;
+  display: none;
   content: attr(data-language);
 }
 
 :deep(pre) {
-  font-family: "Roboto Mono","SFMono-Regular",Menlo,Consolas,"Liberation Mono",Courier,monospace;
-  font-size: 0.92rem !important;
+  font-family: 'DM Mono', 'Input Mono', 'Fira Code', monospace;
+  font-size: 0.90rem !important;
   line-height: 1.7;
   counter-reset: number;
   margin: 0 !important;

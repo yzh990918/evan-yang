@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   css: [
     '@/resources/scrollbars.css',
     '@/resources/main.scss',
+    '@/resources/dark-mono.css',
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {

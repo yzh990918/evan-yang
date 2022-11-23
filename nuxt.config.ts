@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     '@/resources/scrollbars.css',
     '@/resources/main.scss',
     '@/resources/dark-mono.css',
+    '@/resources/input-mono.css',
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
@@ -40,9 +41,11 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
-        { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/47019/634f64ddf629d80d3856f949.css', type: 'text/css' },
-        { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/46986/634f66d9f629d80d3856f94c.css', type: 'text/css' },
-        { rel: 'stylesheet', href: 'http://cdn.repository.webfont.com/webfonts/nomal/150371/46749/634f61e3f629d80d3856f944.css', type: 'text/css' },
+        { rel: 'preload', href: 'https://fonts.gstatic.com/s/dmmono/v10/aFTU7PB1QTsUX8KYhh0.ttf', as: 'font', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf', as: 'font', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', as: 'font', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf', as: 'font', crossorigin: 'anonymous' },
+
       ],
       meta: [
         ...unpackMeta({
@@ -59,6 +62,11 @@ export default defineNuxtConfig({
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'material-darker',
+    },
+    markdown: {
+      toc: {
+        depth: 3,
+      },
     },
   },
 

@@ -128,7 +128,8 @@
 .prose code {
   color: var(--fg-deep);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-family: Input Mono;
 }
 
 .prose code::before {

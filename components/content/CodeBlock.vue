@@ -1,5 +1,5 @@
 <template>
-  <div class="code-block transform relative lg:(-translate-x-0px w-700px) my-12 !py-0  max-h-700px overflow-y-auto">
+  <div class="code-block transform relative lg:(-translate-x-0px w-700px) my-12 !py-0 overflow-y-auto">
     <slot />
   </div>
 </template>
@@ -11,8 +11,8 @@
 }
 
 :deep(pre) {
-  font-family: 'DM Mono', 'Input Mono', 'Fira Code', monospace;
-  font-size: 0.90rem !important;
+  font-family: Input Mono;
+  font-size: 0.85rem !important;
   line-height: 1.7;
   counter-reset: number;
   margin: 0 !important;

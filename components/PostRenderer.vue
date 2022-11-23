@@ -40,7 +40,7 @@ useHead({
         Published {{ month }} {{ day }} {{ year }}
       </div>
       <div class="text-xs hidden sm:block">
-      ☕️☕️
+        ☕️☕️
       </div>
       <div class="text-base">
         {{ post.readingMins }} minute read
@@ -55,6 +55,8 @@ useHead({
         </template>
       </ContentRenderer>
     </Prose>
-    <NuxtLink class="font-mono no-underline opacity-70" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">cd ..</NuxtLink>
+    <NuxtLink class="font-mono no-underline opacity-70" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">
+      cd ..
+    </NuxtLink>
   </div>
 </template>

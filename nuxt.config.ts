@@ -70,10 +70,6 @@ export default defineNuxtConfig({
     },
   },
 
-  router: {
-    trailingSlash: false,
-  },
-
   image: {
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/dl6o1xpyq/image/upload/images',
@@ -85,18 +81,5 @@ export default defineNuxtConfig({
     domains: [
       'avatars0.githubusercontent.com',
     ],
-  },
-
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-        '/sitemap.xml',
-        '/feed.xml',
-        '/feed.json',
-        '/feed.atom',
-      ],
-    },
   },
 })

@@ -5,3 +5,4 @@ node_modules
 content/posts
 content/pages
 data
+*.json

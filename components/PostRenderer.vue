@@ -27,9 +27,7 @@ useHead({
 
 <template>
   <div>
-    <SchemaOrgArticle
-      v-bind="{ ...schema }"
-    />
+    <SchemaOrgArticle v-bind="{ ...schema }" />
     <Breadcrumbs class="mb-2" />
     <h1 class="font-header font-weight-800 text-4xl !leading-11 !md:(text-4xl leading-14) mb-7">
       {{ post.title }}

@@ -26,7 +26,7 @@ const marqueeDuration = ref(0)
 const marqueTransition = useTransition(marqueePosition, {
   duration: marqueeDuration,
   delay: marqueeDelay,
-  transition: TransitionPresets.easeInOut,
+  transition: (TransitionPresets as any).easeInOut,
 })
 
 const startMarquee = () => {
@@ -80,7 +80,9 @@ watch(cardHovered, (v) => {
         </div>
       </div>
       <div class="max-w-full">
-        <h3 class="opacity-90 text-2xl mb-3 group-hover:(sm:-mx-3 tracking-wide text-green-700 font-bold) transition-all">
+        <h3
+          class="opacity-90 text-2xl mb-3 group-hover:(sm:-mx-3 tracking-wide text-green-700 font-bold) transition-all"
+        >
           <span>{{ post.title }}</span>
         </h3>
         <div class="text-sm wrap overflow-hidden whitespace-nowrap mb-3 flex items-center">
@@ -104,6 +106,7 @@ watch(cardHovered, (v) => {
 .group:hover {
   h3 {
     background: linear-gradient(45deg, rgba(#11998e, 1), rgba(#38ef7d, 1));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

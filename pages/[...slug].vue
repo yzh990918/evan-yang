@@ -7,8 +7,6 @@ const routesContentQuery = await useRoutesContent()
 
 const { data: pageContent, error } = routesContentQuery
 
-console.log(pageContent, error.value)
-
 // presume any error is a 404, this should pickup any rendering issues
 if (error.value) {
   const nuxtApp = useNuxtApp()

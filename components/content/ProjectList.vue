@@ -11,6 +11,7 @@ const { data: categories } = await useProjects()
       </div>
     </div>
   </div>
-    <NuxtLink class="font-mono no-underline opacity-70  mt-8" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">cd ..
-    </NuxtLink>
+  <NuxtLink class="font-mono no-underline opacity-70  mt-8" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">
+    cd ..
+  </NuxtLink>
 </template>

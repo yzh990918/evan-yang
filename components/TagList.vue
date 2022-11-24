@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
 
-const props = defineProps({
+defineProps({
   tags: Array as PropType<string[]>,
 })
 </script>

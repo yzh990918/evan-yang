@@ -6,6 +6,7 @@
 
 <style scoped lang="scss">
 h2 {
+  background-clip: text;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }

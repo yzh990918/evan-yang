@@ -53,9 +53,6 @@ export const loadIconForTag = async(tag: string) => {
     autoInstall: true,
   })
 
-  if (!svg)
-    console.warn(`Failed to find icon \`${icon}\` in collection \`${collection}\`.`)
-
   const res: LoadIconResponse = {
     svgRaw: svg,
     svg: normaliseSvgAttrs(svg, icon),

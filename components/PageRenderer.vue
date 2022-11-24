@@ -12,9 +12,7 @@ const schema = computed(() => props.page.schema || {})
 
 <template>
   <div>
-    <SchemaOrgWebPage
-      v-bind="schema"
-    />
+    <SchemaOrgWebPage v-bind="schema" />
     <component :is="contentComponent">
       <ContentRenderer :value="page" />
     </component>

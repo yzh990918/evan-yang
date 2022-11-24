@@ -185,6 +185,7 @@
 
 .dark .prose h2 a {
   background: linear-gradient(180deg, rgba(#6ee7b7, 1), rgba(#2dd4bf, 0.9)) !important;
+  background-clip: text!important;
   -webkit-background-clip: text !important;
 }
 

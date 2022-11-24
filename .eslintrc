@@ -2,5 +2,9 @@
   "extends": [
     "@nuxtjs/eslint-config-typescript",
     "@evan-yang"
-  ]
+  ],
+  "rules": {
+    "vue/no-multiple-template-root":"off",
+    "require-await": "off"
+  }
 }

@@ -53,7 +53,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-60 transition-all duration-500 ease-out">
+  <div
+    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-60 transition-all duration-500 ease-out"
+  >
     <ul v-if="toc && toc.links" ref="tocRef" list-none>
       <li>On this page</li>
       <li v-for="link in toc.links" :key="link.text">
@@ -77,7 +79,8 @@ onMounted(() => {
   font-weight: normal;
   border-image: none;
 }
-.prose ul>li::before{
+
+.prose ul>li::before {
   display: none;
 }
 </style>

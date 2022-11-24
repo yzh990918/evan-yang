@@ -2,4 +2,6 @@ dist
 node_modules
 .output
 .nuxt
-*.md
+content/posts
+content/pages
+data

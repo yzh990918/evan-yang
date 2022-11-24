@@ -56,7 +56,7 @@ const provider = props.src.startsWith('https://') ? '' : 'cloudinary'
 
 <style scoped>
 figure {
-  @apply transform lg:(!my-10 max-w-900px) mx-auto max-w-full;
+  @apply transform lg: ( !my-10 max-w-900px) mx-auto max-w-full;
 }
 
 @media(max-width: 1024px) {
@@ -68,7 +68,7 @@ figure {
 @media(min-width: 1024px) {
   figure {
     max-width: 700px;
-    --tw-translate-x: 0!important;
+    --tw-translate-x: 0 !important;
   }
 }
 

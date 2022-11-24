@@ -6,9 +6,6 @@
   publish = "dist"
   command = "pnpm run build"
 
-[functions]
-  node_bundler = "esbuild"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"

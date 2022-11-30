@@ -54,11 +54,10 @@ onMounted(() => {
 
 <template>
   <div
-    v-if="toc && toc.links"
-    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-60 transition-all duration-200 ease-out"
+    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-70 transition-opacity duration-500 ease-out"
   >
-    <ul v-if="toc && toc.links" ref="tocRef" list-none>
-      <li>On this page</li>
+    <ul v-if="(toc && toc.links)" ref="tocRef" list-none>
+      <strong>On this page</strong>
       <li v-for="link in toc.links" :key="link.text">
         <a class="op-60 hover-op-100 no-underline" :href="`#${link.id}`">
           {{ link.text }}

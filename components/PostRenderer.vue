@@ -32,8 +32,8 @@ useHead({
     <h1 class="font-header font-weight-800 text-4xl !leading-11 !md:(text-4xl leading-14) mb-7">
       {{ post.title }}
     </h1>
-    <TagList v-if="post.tags" :tags="post.tags" class="mb-5" />
-    <div class="sm:(flex space-x-4 mb-10 text-lg space-y-0) opacity-80 space-y-3 items-center">
+    <!-- <TagList v-if="post.tags" :tags="post.tags" class="mb-5" /> -->
+    <div class="sm:(flex space-x-4 mb-8 text-lg space-y-0) opacity-80 space-y-3 items-center">
       <div class="text-base">
         Published {{ month }} {{ day }} {{ year }}
       </div>
@@ -41,7 +41,7 @@ useHead({
         ☕️☕️
       </div>
       <div class="text-base">
-        {{ post.readingMins }} minute read
+        {{ post.readingMins }} min
       </div>
     </div>
     <Prose>

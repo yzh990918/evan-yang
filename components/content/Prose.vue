@@ -18,6 +18,11 @@
     font-size: 1rem;
     line-height: 1.75;
   }
+
+  .md\:prose-lg p {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
 }
 
 .prose blockquote {
@@ -35,6 +40,7 @@
   margin-top: 1.6em;
   margin-bottom: 1.6em;
 }
+
 .dark .prose blockquote {
   color: #d1d5db;
 }
@@ -185,7 +191,7 @@
 
 .dark .prose h2 a {
   background: linear-gradient(180deg, rgba(#6ee7b7, 1), rgba(#2dd4bf, 0.9)) !important;
-  background-clip: text!important;
+  background-clip: text !important;
   -webkit-background-clip: text !important;
 }
 

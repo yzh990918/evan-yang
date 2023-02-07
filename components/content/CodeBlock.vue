@@ -1,5 +1,5 @@
 <template>
-  <div class="code-block transform relative lg:(-translate-x-0px w-700px) my-12 !py-0 overflow-y-auto">
+  <div class="code-block transform relative lg:(-translate-x-0px w-700px) my-2 !py-0 overflow-y-auto">
     <slot />
   </div>
 </template>

@@ -20,8 +20,8 @@
   }
 
   .md\:prose-lg p {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 

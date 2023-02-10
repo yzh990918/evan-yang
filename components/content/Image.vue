@@ -48,15 +48,12 @@ const provider = props.src.startsWith('https://') ? '' : 'cloudinary'
       :loading="loadingType"
       :provider="provider"
     />
-    <figcaption v-if="alt" class="text-center">
-      {{ alt }}
-    </figcaption>
   </figure>
 </template>
 
 <style scoped>
 figure {
-  @apply transform lg: ( !my-10 max-w-900px) mx-auto max-w-full;
+  @apply transform lg: ( !my-8 max-w-900px) mx-auto max-w-full;
 }
 
 @media(max-width: 1024px) {

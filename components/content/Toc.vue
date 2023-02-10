@@ -54,7 +54,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-70 transition-opacity duration-500 ease-out"
+    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-80 transition-opacity duration-500 ease-out"
   >
     <ul v-if="(toc && toc.links)" ref="tocRef" list-none>
       <strong>On this page</strong>

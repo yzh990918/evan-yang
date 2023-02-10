@@ -54,6 +54,7 @@ export default defineNuxtConfig({
           twitterCreator: '@harlan_zw',
         }),
         { 'http-equiv': 'accept-ch', 'content': 'DPR' },
+        { name: 'referrer', content: 'no-referrer' },
       ],
     }),
   },
@@ -65,7 +66,7 @@ export default defineNuxtConfig({
     },
     markdown: {
       toc: {
-        depth: 3,
+        depth: 2,
       },
     },
   },

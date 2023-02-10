@@ -2,7 +2,7 @@
 const { path } = useRoute()
 const postName: string = path.split('/').reverse()[0] ?? ''
 const contents = await queryContent('/').find()
-const toc = contents.filter(item => item._path.includes(postName))?.[0].body.toc
+const toc = ref()
 const router = useRouter()
 const tocRef = ref()
 
@@ -49,6 +49,9 @@ onMounted(() => {
 
   navigate()
   setTimeout(navigate, 500)
+  setTimeout(() => {
+    toc.value = contents.filter(item => item._path.includes(postName))?.[0].body.toc
+  }, 800)
 })
 </script>
 

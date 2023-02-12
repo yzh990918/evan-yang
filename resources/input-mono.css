@@ -2,14 +2,3 @@
   font-family:"Input Mono";
   src: url("./InputMono-Regular.ttf") format("truetype");
 }
-
-@font-face {
-  font-family:"SmileySans";
-  src: url("./SmileySans.ttf") format("truetype");
-}
-
-@font-face {
-  font-family:"SourceHanSansSC";
-  src: url("./SourceHanSansSC-Regular.otf") format("truetype");
-}
-

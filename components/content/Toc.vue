@@ -51,7 +51,7 @@ onMounted(() => {
   setTimeout(navigate, 500)
   setTimeout(() => {
     toc.value = contents.filter(item => item._path.includes(postName))?.[0].body.toc
-  }, 800)
+  }, 1000)
 })
 </script>
 

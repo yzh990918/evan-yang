@@ -11,7 +11,6 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
-  font-weight: 500;
   color: #555555;
 }
 .dark .prose {
@@ -19,6 +18,9 @@
 }
 
 @media (min-width: 768px) {
+  .prose {
+    font-weight: 500;
+  }
   .md\:prose-lg {
     font-size: 1rem;
     line-height: 1.75;

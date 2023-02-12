@@ -3,7 +3,7 @@ pre {
 }
 
 .dark pre {
-  --scrollbar-thumb: #acbad2;
+  --scrollbar-thumb: #222222;
 }
 
 * {

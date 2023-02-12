@@ -1,4 +1,17 @@
+
 @font-face {
   font-family:"Input Mono";
   src: url("./InputMono-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family:"DM mono";
+  src: url("./dm-mono.woff2") format("truetype");
+}
+
+
+@font-face {
+  font-family:"DM Regular";
+  src: url("./dm-regular.woff2") format("truetype");
 }

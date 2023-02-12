@@ -11,6 +11,11 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
+  font-weight: 500;
+  color: #555555;
+}
+.dark .prose {
+  color: #BBBBBB;
 }
 
 @media (min-width: 768px) {
@@ -39,6 +44,10 @@
   quotes: "\201C" "\201D" "\2018" "\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
+}
+
+.prose a{
+  color: #000000c5;
 }
 
 .dark .prose blockquote {
@@ -212,6 +221,12 @@
 /* Fix icons in headers */
 .prose h1 svg {
   @apply ml-1 md: (w-8 h-8) w-6 h-6 mb-1 text-gray-500 inline-block;
+}
+
+.prose a svg {
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
 }
 
 .prose h2 a,

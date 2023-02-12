@@ -11,8 +11,8 @@
 }
 
 :deep(pre) {
-  font-family: Input Mono;
-  font-size: 0.85rem !important;
+  font-family: 'DM mono', Input Mono;
+  font-size: 0.9rem !important;
   line-height: 1.7;
   counter-reset: number;
   margin: 0 !important;

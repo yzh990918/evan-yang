@@ -32,10 +32,6 @@
   color: #191d21e6;
 }
 
-.font-header {
-  color:#374151;
-}
-
 @media (min-width: 768px) {
   .md\:prose-lg {
     font-size: 1rem;

@@ -11,8 +11,7 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
-  color: #6a6868;
-  font-weight: 600;
+  color: #24292fe6;
 }
 
 .dark .prose {

@@ -12,7 +12,7 @@
   font-size: 1rem;
   line-height: 1.75;
   color: rgb(17, 19, 21);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .dark .prose {

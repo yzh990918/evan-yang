@@ -25,14 +25,11 @@
  h4,
  h5,
  h6 {
-   font-family: "LXGWWenKaiLite", Inter, ui-sans-serif, system-ui, -apple-system,
-     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-     "Noto Color Emoji"!important;
+  font-family: "LXGW WenKai Screen R", Calibri, Arial, sans-serif;
  }
 
 .prose a {
-  color: #000000;
+  color: #191d21e6;
 }
 
 .font-header {
@@ -40,14 +37,6 @@
 }
 
 @media (min-width: 768px) {
-  .prose {
-    font-weight: 600;
-    color: rgb(84, 92, 103);
-    font-family: "LXGWWenKaiLite", Inter, ui-sans-serif, system-ui, -apple-system,
-        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-        "Noto Color Emoji";
-  }
   .md\:prose-lg {
     font-size: 1rem;
     line-height: 1.75;
@@ -58,7 +47,7 @@
     margin-bottom: 1em;
   }
     .prose a {
-      color: #000000;
+      color: #191d21e6;
     }
 }
 

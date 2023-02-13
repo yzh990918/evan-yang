@@ -42,6 +42,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
         { rel: 'preload', href: 'https://fonts.gstatic.com/s/dmmono/v10/aFTU7PB1QTsUX8KYhh0.ttf', as: 'font', crossorigin: 'anonymous' },
+        { rel: 'stylesheet', href: 'https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css', as: 'font' },
         { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf', as: 'font', crossorigin: 'anonymous' },
         { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf', as: 'font', crossorigin: 'anonymous' },
         { rel: 'preload', href: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf', as: 'font', crossorigin: 'anonymous' },

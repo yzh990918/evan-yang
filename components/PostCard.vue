@@ -71,7 +71,7 @@ watch(cardHovered, (v) => {
 <template>
   <nuxt-link ref="card" :to="post.path" class="block max-w-full transition-all group">
     <div class="flex items-center">
-      <div class="opacity-70 group-hover:(opacity-90) transition-all absolute top-3 -left-20">
+      <div class="opacity-70 font-semibold group-hover:(opacity-90) transition-all absolute top-3 -left-20">
         <div class="text-lg">
           {{ month }}
         </div>
@@ -81,7 +81,7 @@ watch(cardHovered, (v) => {
       </div>
       <div class="max-w-full">
         <h3
-          class="opacity-90 text-2xl mb-3 group-hover:(sm:-mx-3 tracking-wide text-green-700 font-bold) transition-all"
+          class="opacity-90 text-2xl mb-3 font-semibold group-hover:(sm:-mx-3 tracking-wide text-green-700) transition-all"
         >
           <span>{{ post.title }}</span>
         </h3>
@@ -89,12 +89,12 @@ watch(cardHovered, (v) => {
           <span v-if="post.readingMins" class="opacity-70">{{ post.readingMins }} min</span>
           <span class="px-2 opacity-50 hidden sm:inline-block">·</span>
           <div ref="marqueeEl" class="hidden sm:inline-flex overflow-hidden items-center">
-            <div class="opacity-60">
+            <div class="opacity-80 font-normal">
               {{ post.description }}
             </div>
           </div>
         </div>
-        <div class="opacity-60 text-sm sm:hidden">
+        <div class="opacity-80 text-sm sm:hidden font-normal">
           {{ post.description }}
         </div>
       </div>

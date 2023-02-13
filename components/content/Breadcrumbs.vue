@@ -8,7 +8,7 @@ const breadcrumbs = await useBreadcrumbs()
       <ul class="flex space-x-4 text-sm opacity-50 list-none !mt-0 !mb-0">
         <template v-for="(item, key) in breadcrumbs">
           <li v-if="item.item" :key="key" class="!mt-0">
-            <NuxtLink :to="item.item" class="inline !border-none">
+            <NuxtLink :to="item.item" class="inline !border-none font-semibold">
               {{ item.name }}
             </NuxtLink>
           </li>

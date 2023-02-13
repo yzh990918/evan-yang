@@ -11,15 +11,38 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
-  color: #555555;
+  color: rgb(17, 19, 21);
+  font-weight: 500;
 }
+
 .dark .prose {
   color: #BBBBBB;
 }
 
+ .prose
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "LXGWWenKaiLite", Inter, ui-sans-serif, system-ui, -apple-system,
+     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+     "Noto Color Emoji"!important;
+ }
+
+.prose a {
+  color: #000000;
+}
+
+.font-header {
+  color:#374151;
+}
+
 @media (min-width: 768px) {
   .prose {
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(84, 92, 103);
   }
   .md\:prose-lg {
     font-size: 1rem;
@@ -30,6 +53,9 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
+    .prose a {
+      color: #000000;
+    }
 }
 
 .prose blockquote {
@@ -37,7 +63,7 @@
   font-style: normal;
   line-height: 1.7em;
   padding: 0.6em 1.2em;
-  opacity: 0.8;
+  opacity: 0.9;
   color: inherit;
   margin-left: 0;
   margin-right: 0;
@@ -46,10 +72,6 @@
   quotes: "\201C" "\201D" "\2018" "\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
-}
-
-.prose a{
-  color: #000000c5;
 }
 
 .dark .prose blockquote {

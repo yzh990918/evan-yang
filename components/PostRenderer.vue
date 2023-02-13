@@ -33,7 +33,7 @@ useHead({
       {{ post.title }}
     </h1>
     <!-- <TagList v-if="post.tags" :tags="post.tags" class="mb-5" /> -->
-    <div class="sm:(flex space-x-4 mb-8 text-lg space-y-0) opacity-80 space-y-3 items-center">
+    <div class="sm:(flex space-x-4 mb-8 text-lg space-y-0) opacity-80 space-y-3 items-center font-semibold">
       <div class="text-base">
         Published {{ month }} {{ day }} {{ year }}
       </div>

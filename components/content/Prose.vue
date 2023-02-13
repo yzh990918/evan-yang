@@ -11,6 +11,7 @@
   --fg-deeper: #000;
   font-size: 1rem;
   line-height: 1.75;
+  font-weight: 500;
   color: #24292fe6;
 }
 
@@ -42,6 +43,10 @@
   .prose {
     font-weight: 600;
     color: rgb(84, 92, 103);
+    font-family: "LXGWWenKaiLite", Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
   }
   .md\:prose-lg {
     font-size: 1rem;

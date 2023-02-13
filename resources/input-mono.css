@@ -20,3 +20,8 @@
   font-family:"LXGWWenKaiLite";
   src: url("./LXGWWenKaiLite-Regular.woff") format("truetype");
 }
+
+@font-face {
+  font-family:"LXGWWenKaiLiteScreen";
+  src: url("./LXGWWenKaiLite-Bold.ttf") format("truetype");
+}

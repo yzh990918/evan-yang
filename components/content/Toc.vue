@@ -7,6 +7,8 @@ const router = useRouter()
 const tocRef = ref()
 
 onMounted(() => {
+  toc.value = contents.filter(item => item._path.includes(postName))?.[0].body.toc
+
   const navigate = () => {
     if (location.hash) {
       document.querySelector(decodeURIComponent(location.hash))
@@ -49,18 +51,15 @@ onMounted(() => {
 
   navigate()
   setTimeout(navigate, 500)
-  setTimeout(() => {
-    toc.value = contents.filter(item => item._path.includes(postName))?.[0].body.toc
-  }, 1000)
 })
 </script>
 
 <template>
   <div
-    v-if="(toc && toc.links && toc.links.length)"
+    ref="tocRef"
     class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-80 transition-opacity duration-500 ease-out"
   >
-    <ul ref="tocRef" list-none>
+    <ul v-if="(toc && toc.links && toc.links.length)" list-none>
       <strong>On this page</strong>
       <li v-for="link in toc.links" :key="link.text">
         <a class="op-60 hover-op-100 no-underline" :href="`#${link.id}`">

@@ -9,7 +9,8 @@ tags:
   - typescript
 ---
 
-:Toc
+::Toc
+::
 
 ::primary
 This article is a work in progress. Feel free to read it, but some sections are incomplete.

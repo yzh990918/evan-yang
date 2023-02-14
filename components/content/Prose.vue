@@ -16,7 +16,7 @@
 }
 
 .dark .prose {
-  color: #BBBBBB;
+  color: #E4E4E7;
 }
 
  .prose

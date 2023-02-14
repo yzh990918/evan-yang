@@ -14,19 +14,6 @@ tags:
 ::primary
 This article is a work in progress. Feel free to read it, but some sections are incomplete.
 ::
-::tip
-This article is a work in progress. Feel free to read it, but some sections are incomplete.
-::
-::warning
-This article is a work in progress. Feel free to read it, but some sections are incomplete.
-::
-::danger
-This article is a work in progress. Feel free to read it, but some sections are incomplete.
-::
-::info
-This article is a work in progress. Feel free to read it, but some sections are incomplete.
-::
-
 
 ## Introduction
 

@@ -23,6 +23,8 @@ useHead({
     twitterData2: `${props.post.readingMins} mins`,
   }),
 })
+
+const colorMode = useColorMode()
 </script>
 
 <template>
@@ -56,5 +58,24 @@ useHead({
     <NuxtLink class="font-mono no-underline opacity-70" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">
       cd ..
     </NuxtLink>
+    <div class="mt-6 flex">
+      <giscus-widget
+        id="inject-comments"
+        repo="yzh990918/evan-yang"
+        repo-id="R_kgDOIPJ3VA"
+        category="Announcements"
+        category-id="DIC_kwDOIPJ3VM4CUWD4"
+        mapping="pathname"
+        strict="0"
+        reactions-enabled="1"
+        emit-metadata="1"
+        input-position="bottom"
+        :theme="colorMode.value === 'dark' ? 'dark' : 'light'"
+        lang="en"
+        loading="lazy"
+        host="https://giscus.app"
+        async
+      />
+    </div>
   </div>
 </template>

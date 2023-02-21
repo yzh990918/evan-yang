@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     head: defineHead<Head>({
       // fathom analytics
       script: [
+        { type: 'module', src: 'https://unpkg.com/giscus?module' },
       ],
       link: [
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },

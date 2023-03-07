@@ -1,5 +1,52 @@
 {
   "body": [
+        {
+          "name": "Toy project",
+          "projects": [
+            {
+              "name": "ChatGPT-demo",
+              "description": "A demo repo based on OpenAI API (gpt-3.5-turbo).",
+              "link": "https://github.com/ddiu8081/chatgpt-demo",
+              "icon": "i-fluent-emoji-robot"
+            },
+            {
+              "name": "Student-admin-template",
+              "description": "A Magic Student_admin built by Vue2, element, springboot.",
+              "link": "https://github.com/yzh990918/Magic_Shop",
+              "icon": "i-fluent-emoji-nerd-face"
+            },
+            {
+              "name": "Magic Shop",
+              "description": "A magic sundry goods store built by Wechat Miniprogram.",
+              "link": "https://github.com/yzh990918/Magic_Shop",
+              "icon": "i-fluent-emoji-shopping-bags"
+            },
+            {
+              "name": "Forum-project ",
+              "description": "A forum project built by Vue2, Koa.",
+              "link": "https://github.com/yzh990918/forum-project",
+              "icon": "i-fluent-emoji-broccoli"
+            },
+            {
+              "name": "Epub Reader",
+              "description": "A Epub book Reader built by epubjs, Vue2.",
+              "link": "https://github.com/yzh990918/reader_overwrite",
+              "icon": "i-fluent-emoji-open-book"
+            },
+            {
+              "name": "Magic music",
+              "description": "A magic music player built by Vue2.",
+              "link": "https://github.com/yzh990918/mymusic",
+              "icon": "i-fluent-emoji-axe"
+            },
+            {
+              "name": "Koa lonely island",
+              "description": "The best Node.js Koa restfulAPI practice",
+              "link": "https://github.com/yzh990918/Node_review",
+              "icon": "i-fluent-emoji-blossom"
+            }
+          ]
+        },
     {
       "name": "Utilities / CLI",
       "projects": [
@@ -7,31 +54,31 @@
           "name": "Magic CLI",
           "description": "Monorepo enterprise level CLI tools by Rush and Pnpm",
           "link": "https://github.com/vbs-plus/magic-cli",
-          "icon": "i-carbon-package"
+          "icon": "i-fluent-emoji-carrot"
         },
         {
           "name": "Magic CLI Templates",
           "description": "Make templates simply",
           "link": "https://github.com/vbs-plus/magic-cli-templates",
-          "icon": "i-carbon-compare"
+          "icon": "i-fluent-emoji-frog"
         },
         {
           "name": "ZI",
           "description": "Use the right package manager",
           "link": "https://github.com/vbs-plus/zi",
-          "icon": "i-carbon-3d-software"
+          "icon": "i-fluent-emoji-heart-with-arrow"
         },
         {
           "name": "JSON TSC",
           "description": "A plugin that makes it easier to convert JSON to Typescript interface.",
           "link": "https://github.com/vbs-plus/json-tsc",
-          "icon": "i-carbon-json-reference"
+          "icon": "i-fluent-emoji-hibiscus"
         },
         {
           "name": "Koa-template",
           "description": "Koa Restful best template.",
           "link": "https://github.com/yzh990918/koa-template",
-          "icon": "i-carbon-tools"
+          "icon": "i-fluent-emoji-sauropod"
         }
       ]
     },
@@ -42,7 +89,7 @@
           "name": "eslint-config",
           "description": "Personal Eslint config presets",
           "link": "https://github.com/yzh990918/eslint-config",
-          "icon": "i-simple-icons-eslint"
+          "icon": "i-fluent-emoji-melting-face"
         }
       ]
     },
@@ -53,7 +100,7 @@
           "name": "Onu UI",
           "description": "Onu-UI for web glassmorphism components generate by UnoCSS",
           "link": "https://github.com/onu-ui/onu-ui",
-          "icon": "i-simple-icons-unocss"
+          "icon": "i-fluent-emoji-eggplant"
         }
       ]
     },
@@ -64,126 +111,79 @@
           "name": "onu-starter",
           "description": "Template for vitest-Vue3 used OnuUI",
           "link": "https://github.com/yzh990918/onu-starter",
-          "icon": "i-simple-icons-unocss"
+          "icon": "i-fluent-emoji-first-quarter-moon"
         },
         {
           "name": "pmrepo-rush-starter",
           "description": "pnpm rush monrepo template",
           "link": "https://github.com/vbs-plus/pmrepo-rush",
-          "icon": "i-carbon-ai-results"
+          "icon": "i-fluent-emoji-first-quarter-moon-face"
         },
         {
           "name": "vitese-electron",
           "description": "Vitese electron version",
           "link": "https://github.com/yzh990918/vitese-electron",
-          "icon": "i-simple-icons-electron"
+          "icon": "i-fluent-emoji-flamingo"
         },
         {
           "name": "vitese",
           "description": "Template for vitest-vue3",
           "link": "https://github.com/yzh990918/vitest-vue-starter",
-          "icon": "i-carbon-campsite"
+          "icon": "i-fluent-emoji-four-leaf-clover"
         },
         {
           "name": "vitese-react",
           "description": "Template for vitest-react",
           "link": "https://github.com/yzh990918/vitest-react-starter",
-          "icon": "i-simple-icons-react"
+          "icon": "i-fluent-emoji-fish"
         },
         {
           "name": "vitese-h5",
           "description": "Template for vitest-vue3 h5",
           "link": "https://github.com/yzh990918/vitese-h5-starter",
-          "icon": "i-carbon-application-mobile"
+          "icon": "i-fluent-emoji-globe-showing-americas"
         },
         {
           "name": "vite-vue2-starter",
           "description": "Template for vite vue2",
           "link": "https://github.com/yzh990918/vite-vue2-start",
-          "icon": "i-carbon-campsite"
+          "icon": "i-fluent-emoji-goggles"
         },
         {
           "name": "ts-cli-template",
           "description": "Typescript cli starter",
           "link": "https://github.com/yzh990918/ts-cli-template",
-          "icon": "i-simple-icons-vite"
+          "icon": "i-fluent-emoji-grinning-face-with-sweat"
         },
         {
           "name": "ts-starter",
           "description": "Typescript Vitest starter",
           "link": "https://github.com/yzh990918/ts-vitest-starter",
-          "icon": "i-simple-icons-typescript"
+          "icon": "i-fluent-emoji-hear-no-evil-monkey"
         },
         {
           "name": "ant-design-pro-starter",
           "description": "Ant Design Pro Starter",
           "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-pro-starter",
-          "icon": "i-simple-icons-antdesign"
+          "icon": "i-fluent-emoji-ice"
         },
         {
           "name": "ant-design-simple-starter",
           "description": "Ant Design Pro Simple Starter",
           "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/ant-design-simple-starter",
-          "icon": "i-simple-icons-antdesign"
+          "icon": "i-fluent-emoji-koala"
         },
         {
           "name": "vue3-element-admin-starter",
           "description": "Vue3 element-plus admin-starter",
           "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-element-admin-starter",
-          "icon": "i-ep-element-plus"
+          "icon": "i-fluent-emoji-lotus"
         },
         {
           "name": "vue3-element-admin-simple",
           "description": "Vue3 element-plus simple admin-starter",
           "link": "https://github.com/yzh990918/vue-admin-template",
-          "icon": "i-ep-element-plus"
-        }
-      ]
-    },
-    {
-      "name": "Toy project",
-      "projects": [
-        {
-          "name": "ChatGPT-demo",
-          "description": "A demo repo based on OpenAI API (gpt-3.5-turbo).",
-          "link": "https://github.com/ddiu8081/chatgpt-demo",
-          "icon": "i-simple-icons-openai"
-        },
-        {
-          "name": "Student-admin-template",
-          "description": "A Magic Student_admin built by Vue2, element, springboot.",
-          "link": "https://github.com/yzh990918/Magic_Shop",
-          "icon": "i-simple-icons-aiqfome"
-        },
-        {
-          "name": "Magic Shop",
-          "description": "A magic sundry goods store built by Wechat Miniprogram.",
-          "link": "https://github.com/yzh990918/Magic_Shop",
-          "icon": "i-carbon-shopping-cart"
-        },
-        {
-          "name": "Forum-project ",
-          "description": "A forum project built by Vue2, Koa.",
-          "link": "https://github.com/yzh990918/forum-project",
-          "icon": "i-carbon-color-palette"
-        },
-        {
-          "name": "Epub Reader",
-          "description": "A Epub book Reader built by epubjs, Vue2.",
-          "link": "https://github.com/yzh990918/reader_overwrite",
-          "icon": "i-carbon-book"
-        },
-        {
-          "name": "Magic music",
-          "description": "A magic music player built by Vue2.",
-          "link": "https://github.com/yzh990918/mymusic",
-          "icon": "i-carbon-music"
-        },
-        {
-          "name": "Koa lonely island",
-          "description": "The best Node.js Koa restfulAPI practice",
-          "link": "https://github.com/yzh990918/Node_review",
-          "icon": "i-simple-icons-kongregate"
+          "icon": "i-fluent-emoji-maple-leaf"
         }
       ]
     }

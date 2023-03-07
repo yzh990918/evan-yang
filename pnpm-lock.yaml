@@ -15,6 +15,8 @@ specifiers:
   '@iconify-json/emojione-v1': ^1.1.2
   '@iconify-json/ep': ^1.1.7
   '@iconify-json/fa-brands': ^1.1.1
+  '@iconify-json/fluent': ^1.1.18
+  '@iconify-json/fluent-emoji': ^1.1.3
   '@iconify-json/heroicons-outline': ^1.1.4
   '@iconify-json/ic': ^1.1.9
   '@iconify-json/line-md': ^1.1.14
@@ -58,6 +60,8 @@ devDependencies:
   '@iconify-json/emojione-v1': 1.1.2
   '@iconify-json/ep': 1.1.7
   '@iconify-json/fa-brands': 1.1.2
+  '@iconify-json/fluent': 1.1.18
+  '@iconify-json/fluent-emoji': 1.1.12
   '@iconify-json/heroicons-outline': 1.1.4
   '@iconify-json/ic': 1.1.9
   '@iconify-json/line-md': 1.1.14
@@ -595,6 +599,18 @@ packages:
 
   /@iconify-json/fa-brands/1.1.2:
     resolution: {integrity: sha512-ByUw5MMEsc6gjbtHD3FTrX1689/CN1Mg+qPOnofckOw/M2SOH8qFgoQTi3bafQQQWNxUV45ttM85bscou52AzA==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/fluent-emoji/1.1.12:
+    resolution: {integrity: sha512-Mga6M530cJPQR+85HkPHAR1LQjYFVEQTsWF5SBKM4Vz9ycaW3kTwT9qQjFQQ/8Ah2pJk6Hfq8xhimuhG9r6Eyw==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/fluent/1.1.18:
+    resolution: {integrity: sha512-tdfnNxTJW39t5FhGzf+LPMJyaW9lTIhVYpHReGbbK7Ivt/GksbbOFpXntUgAgrMqglxSmSOz7u0xBARS1a3waQ==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true

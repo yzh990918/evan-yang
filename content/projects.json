@@ -1,52 +1,52 @@
 {
   "body": [
+    {
+      "name": "Toy project",
+      "projects": [
         {
-          "name": "Toy project",
-          "projects": [
-            {
-              "name": "ChatGPT-demo",
-              "description": "A demo repo based on OpenAI API (gpt-3.5-turbo).",
-              "link": "https://github.com/ddiu8081/chatgpt-demo",
-              "icon": "i-fluent-emoji-robot"
-            },
-            {
-              "name": "Student-admin-template",
-              "description": "A Magic Student_admin built by Vue2, element, springboot.",
-              "link": "https://github.com/yzh990918/Magic_Shop",
-              "icon": "i-fluent-emoji-nerd-face"
-            },
-            {
-              "name": "Magic Shop",
-              "description": "A magic sundry goods store built by Wechat Miniprogram.",
-              "link": "https://github.com/yzh990918/Magic_Shop",
-              "icon": "i-fluent-emoji-shopping-bags"
-            },
-            {
-              "name": "Forum-project ",
-              "description": "A forum project built by Vue2, Koa.",
-              "link": "https://github.com/yzh990918/forum-project",
-              "icon": "i-fluent-emoji-broccoli"
-            },
-            {
-              "name": "Epub Reader",
-              "description": "A Epub book Reader built by epubjs, Vue2.",
-              "link": "https://github.com/yzh990918/reader_overwrite",
-              "icon": "i-fluent-emoji-open-book"
-            },
-            {
-              "name": "Magic music",
-              "description": "A magic music player built by Vue2.",
-              "link": "https://github.com/yzh990918/mymusic",
-              "icon": "i-fluent-emoji-axe"
-            },
-            {
-              "name": "Koa lonely island",
-              "description": "The best Node.js Koa restfulAPI practice",
-              "link": "https://github.com/yzh990918/Node_review",
-              "icon": "i-fluent-emoji-blossom"
-            }
-          ]
+          "name": "ChatGPT-demo",
+          "description": "A demo repo based on OpenAI API (gpt-3.5-turbo).",
+          "link": "https://github.com/ddiu8081/chatgpt-demo",
+          "icon": "i-fluent-emoji-robot"
         },
+        {
+          "name": "Student-admin-template",
+          "description": "A Magic Student_admin built by Vue2, element, springboot.",
+          "link": "https://github.com/yzh990918/Magic_Shop",
+          "icon": "i-fluent-emoji-nerd-face"
+        },
+        {
+          "name": "Magic Shop",
+          "description": "A magic sundry goods store built by Wechat Miniprogram.",
+          "link": "https://github.com/yzh990918/Magic_Shop",
+          "icon": "i-fluent-emoji-shopping-bags"
+        },
+        {
+          "name": "Forum-project ",
+          "description": "A forum project built by Vue2, Koa.",
+          "link": "https://github.com/yzh990918/forum-project",
+          "icon": "i-fluent-emoji-broccoli"
+        },
+        {
+          "name": "Epub Reader",
+          "description": "A Epub book Reader built by epubjs, Vue2.",
+          "link": "https://github.com/yzh990918/reader_overwrite",
+          "icon": "i-fluent-emoji-open-book"
+        },
+        {
+          "name": "Magic music",
+          "description": "A magic music player built by Vue2.",
+          "link": "https://github.com/yzh990918/mymusic",
+          "icon": "i-fluent-emoji-axe"
+        },
+        {
+          "name": "Koa lonely island",
+          "description": "The best Node.js Koa restfulAPI practice",
+          "link": "https://github.com/yzh990918/Node_review",
+          "icon": "i-fluent-emoji-blossom"
+        }
+      ]
+    },
     {
       "name": "Utilities / CLI",
       "projects": [
@@ -107,7 +107,7 @@
     {
       "name": "Starter Templates",
       "projects": [
-         {
+        {
           "name": "onu-starter",
           "description": "Template for vitest-Vue3 used OnuUI",
           "link": "https://github.com/yzh990918/onu-starter",

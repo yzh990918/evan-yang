@@ -147,7 +147,7 @@
           "name": "ChatGPT-demo",
           "description": "A demo repo based on OpenAI API (gpt-3.5-turbo).",
           "link": "https://github.com/ddiu8081/chatgpt-demo",
-          "icon": "i-fluent-emoji-robot"
+          "icon": "i-simple-icons-openai"
         },
         {
           "name": "Student-admin-template",

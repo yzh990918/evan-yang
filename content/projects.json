@@ -22,12 +22,6 @@
           "icon": "i-fluent-emoji-shopping-bags"
         },
         {
-          "name": "Forum-project ",
-          "description": "A forum project built by Vue2, Koa.",
-          "link": "https://github.com/yzh990918/forum-project",
-          "icon": "i-fluent-emoji-broccoli"
-        },
-        {
           "name": "Epub Reader",
           "description": "A Epub book Reader built by epubjs, Vue2.",
           "link": "https://github.com/yzh990918/reader_overwrite",
@@ -178,12 +172,6 @@
           "description": "Vue3 element-plus admin-starter",
           "link": "https://github.com/vbs-plus/magic-cli-templates/tree/master/packages/vue3-element-admin-starter",
           "icon": "i-fluent-emoji-lotus"
-        },
-        {
-          "name": "vue3-element-admin-simple",
-          "description": "Vue3 element-plus simple admin-starter",
-          "link": "https://github.com/yzh990918/vue-admin-template",
-          "icon": "i-fluent-emoji-maple-leaf"
         }
       ]
     }

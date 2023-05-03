@@ -57,7 +57,8 @@ onMounted(() => {
 <template>
   <div
     ref="tocRef"
-    class="fixed right-10 top-24 hidden opacity-0 text-sm xl:block hover:opacity-80 transition-opacity duration-500 ease-out"
+    class="fixed opacity-0 text-sm hover:opacity-80 transition-opacity duration-500 ease-out"
+    :class="toc && toc.links && toc.links.length ? 'xl:block right-10 top-24' : 'hidden'"
   >
     <ul v-if="(toc && toc.links && toc.links.length)" list-none>
       <strong>On this page</strong>

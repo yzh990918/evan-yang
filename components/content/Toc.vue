@@ -1,10 +1,13 @@
 <script lang='ts' setup>
+import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
+const breakpoints = useBreakpoints(breakpointsTailwind)
 const { path } = useRoute()
 const postName: string = path.split('/').reverse()[0] ?? ''
 const contents = await queryContent('/').find()
 const toc = ref()
 const router = useRouter()
 const tocRef = ref()
+const largerThanXL = breakpoints.greater('xl')
 
 onMounted(() => {
   toc.value = contents.filter(item => item._path.includes(postName))?.[0].body.toc
@@ -57,8 +60,8 @@ onMounted(() => {
 <template>
   <div
     ref="tocRef"
-    class="fixed opacity-0 text-sm hover:opacity-80 transition-opacity duration-500 ease-out"
-    :class="toc && toc.links && toc.links.length ? 'xl:block right-10 top-24' : 'hidden'"
+    class="fixed opacity-0 text-sm hover:opacity-80 transition-opacity duration-500 ease-out xl:block hidden"
+    :class="toc && toc.links && toc.links.length && largerThanXL ? 'block right-10 top-24' : 'hidden'"
   >
     <ul v-if="(toc && toc.links && toc.links.length)" list-none>
       <strong>On this page</strong>

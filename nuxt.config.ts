@@ -21,8 +21,8 @@ export default defineNuxtConfig({
     defaultLanguage: SiteLanguage,
   },
   css: [
-    '@/resources/scrollbars.css',
     '@/resources/main.scss',
+    '@/resources/scrollbars.css',
     '@/resources/dark-mono.css',
     '@/resources/input-mono.css',
   ],

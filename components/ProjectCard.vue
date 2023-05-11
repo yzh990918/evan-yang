@@ -15,7 +15,7 @@ defineProps({
   >
     <div
       v-if="project.icon"
-      class="opacity-70 mr-2 group-hover:opacity-95 transition-all svg-container"
+      class="opacity-40 mr-2 group-hover:opacity-75 transition-all svg-container"
       v-html="project.icon"
     />
     <div>

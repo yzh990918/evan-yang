@@ -60,7 +60,7 @@ onMounted(() => {
 <template>
   <div
     ref="tocRef"
-    class="fixed opacity-0 text-sm hover:opacity-80 transition-opacity duration-500 ease-out xl:block hidden"
+    class="fixed opacity-0 text-sm hover:opacity-80 transition-opacity duration-500 ease-out xl:block hidden overflow-y-scroll"
     :class="toc && toc.links && toc.links.length && largerThanXL ? 'block right-10 top-24' : 'hidden'"
   >
     <ul v-if="(toc && toc.links && toc.links.length)" list-none>

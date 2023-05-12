@@ -6,6 +6,7 @@ import type { Head } from '@zhead/schema'
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
+    '@nuxtjs/color-mode',
     '@vueuse/nuxt',
     '@nuxt/image-edge',
     'nuxt-schema-org',
@@ -25,6 +26,11 @@ export default defineNuxtConfig({
     '@/resources/dark-mono.css',
     '@/resources/input-mono.css',
   ],
+  // https://color-mode.nuxtjs.org
+  colorMode: {
+    fallback: 'dark',
+    classSuffix: '',
+  },
   app: {
     head: defineHead<Head>({
       // fathom analytics

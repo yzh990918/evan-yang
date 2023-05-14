@@ -185,6 +185,9 @@
   padding-bottom: 0.8571429em;
   padding-left: 1.1428571em;
 }
+.dark .prose pre {
+  background-color: #161B22;
+}
 
 .prose pre code {
   background-color: transparent;

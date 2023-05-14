@@ -14,6 +14,7 @@ const month = formatPublishedDate({ month: 'short' })
 const day = dayNth(formatPublishedDate({ day: 'numeric' }))
 
 const schema = computed(() => props.post.schema || {})
+const backTopVisible = ref(false)
 
 useHead({
   meta: unpackMeta({
@@ -23,6 +24,14 @@ useHead({
     twitterData2: `${props.post.readingMins} mins`,
   }),
 })
+
+useEventListener('scroll', () => {
+  backTopVisible.value = window.scrollY > window.innerHeight
+})
+
+const handleBackTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 
 const colorMode = useColorMode()
 </script>
@@ -55,6 +64,11 @@ const colorMode = useColorMode()
         </template>
       </ContentRenderer>
     </Prose>
+    <div class="z-[9] right-4 bottom-[calc(1rem+env(safe-area-inset-bottom))] fixed font-lg flex flex-col">
+      <button class="w-8 h-8 mt-2 flex items-center justify-center rounded-md border border-[#11998e] text-[#11998e] hover:opacity-100 focus:opacity-100 focus:outline-none transition-all duration-300 transform-gpu translate-x-[60px]" :class="backTopVisible ? 'opacity-70 translate-x-0' : 'opacity-0'" @click="handleBackTop">
+        <i-carbon-up-to-top class="text-base" />
+      </button>
+    </div>
     <NuxtLink class="font-mono no-underline opacity-70" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">
       cd ..
     </NuxtLink>

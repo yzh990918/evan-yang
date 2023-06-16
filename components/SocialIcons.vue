@@ -8,7 +8,7 @@
       <i-line-md-github class="icon icon--off" alt="Github Logo" />
       <i-line-md-github-loop class="icon icon--on" alt="Github Logo" />
     </NuxtLink>
-    <NuxtLink target="_blank" href="https://mailto:yangzhihao990918@gmail.com" title="Visit my Email" class="group">
+    <NuxtLink target="_blank" href="https://mailto:mohen1024@gmail.com" title="Visit my Email" class="group">
       <i-carbon-email class="icon icon--off" alt="Discord Logo" />
       <i-carbon-email class="icon icon--on" alt="Discord Logo" />
     </NuxtLink>
